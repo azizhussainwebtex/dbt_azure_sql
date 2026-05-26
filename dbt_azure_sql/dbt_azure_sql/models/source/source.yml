@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: sales
+    database: free-sql-db-6199493
+    schema: sales
+    tables:
+      - name: customer
+        description: "Customer master data"
+
+      - name: salesorderdetail
+        description: "Individual line items for each sales order"
+
+      - name: salesorderheader
+        description: "Sales order header information"
+
+      - name: salesreason
+        description: "Reasons associated with sales orders"
+
+      - name: store
+        description: "Store information"
